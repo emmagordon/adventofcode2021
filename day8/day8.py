@@ -65,5 +65,5 @@ if __name__ == "__main__":
     with open(PUZZLE_INPUT, "r") as f:
         lines = [line.rstrip() for line in f.readlines()]
 
-    # print(part1(lines))
+    print(part1(lines))
     print(part2(lines))
